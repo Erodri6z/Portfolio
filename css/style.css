@@ -1,3 +1,32 @@
-div {
-    background-color: rgb(224, 208, 208);
+body{
+    background-color: #5FFBF1;
+}
+
+
+#selection {
+    background-color: #8d6bfb;
+    display: center;
+}
+
+
+#icons{
+    max-width: 55px;
+    border: 0px;
+    margin: 20px 0;
+    
+}
+
+#html{
+    width: 55px;
+    padding: 10px;
+
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border-radius: 80px;
+}
+#css, #javascript{
+    padding: 12px; 
+    width: 50px;
+    border-radius: 60px;
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
 }
