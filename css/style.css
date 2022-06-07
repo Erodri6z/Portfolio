@@ -1,13 +1,42 @@
 body{
     background-color: #5FFBF1;
+    grid-template-columns: 10% 80%;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "nav nav nav"
+    "h3 h1 h3"
+    "footer footer footer";
 }
 
 
 #selection {
     background-color: #8d6bfb;
-    display: center;
+    
+
+}
+#tabs{
+    border: black;
+    font-size: large;
+    margin: 0 10px 0 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#info{
+    border-color: #fbfbfb;
+}
+#name ,#title, p{
+    text-align: center;
 }
 
+p{
+
+    margin: auto;
+    max-width: 30%;
+}
 
 #icons{
     max-width: 55px;
