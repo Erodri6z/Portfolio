@@ -23,7 +23,6 @@ aside{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-direction: row;
     align-items: center;
     
 }
@@ -73,6 +72,7 @@ footer{
     display:flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
 }
 #id{
     position:relative
@@ -85,19 +85,22 @@ footer{
 .class{
     display: flex;
     flex-direction: row;
-    ;
+    
 
 
     
 }
 #github{
     width: 90px;
+    padding: 30px;
 }
 #linked-in{
     width: 90px;
-    border-radius: 60px;
+    padding:30px;
+    border-radius: 80px;
     border: 0;
 }
 #email{
     width:90px;
+    padding: 30px;
 }
