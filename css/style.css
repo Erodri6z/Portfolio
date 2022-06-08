@@ -83,8 +83,9 @@ footer{
     list-style: none
 }
 button{
-    position:absolute;
-    margin-right: 0;
+    position:relative;
+    left: 1200px;
+    margin: 20px 0;
 }
 #github{
     width: 90px;
