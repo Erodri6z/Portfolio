@@ -82,3 +82,22 @@ footer{
     border-radius: 60px;
     list-style: none
 }
+.class{
+    display: flex;
+    flex-direction: row;
+    ;
+
+
+    
+}
+#github{
+    width: 90px;
+}
+#linked-in{
+    width: 90px;
+    border-radius: 60px;
+    border: 0;
+}
+#email{
+    width:90px;
+}
