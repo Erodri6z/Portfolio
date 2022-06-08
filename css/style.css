@@ -58,8 +58,20 @@ p{
     padding: 12px; 
     width: 50px;
     border-radius: 60px;
+    padding: 10px;
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+#resume:hover{
     background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
-    
+}
+#html:hover{
+    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
+}
+#css:hover{
+    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
+}
+#javascript:hover{
+    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
 }
 .projects{
     text-align: center;
@@ -77,15 +89,17 @@ footer{
 #id{
     position:relative
 }
+button{
+    position:absolute;
+    left: 920px;
+    margin: 20px 0;
+}
 #resume{
     max-width: 55px;
     border-radius: 60px;
-    list-style: none
-}
-button{
-    position:relative;
-    left: 1200px;
-    margin: 20px 0;
+    padding: 10px;
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border-radius: 80px;
 }
 #github{
     width: 90px;
