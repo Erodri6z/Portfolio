@@ -74,9 +74,11 @@ footer{
     flex-direction: row;
     align-items: center;
 }
+#id{
+    position:relative
+}
 #resume{
     max-width: 55px;
     border-radius: 60px;
-    align-items: flex-start;
     list-style: none
 }
