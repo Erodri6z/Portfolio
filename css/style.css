@@ -82,13 +82,9 @@ footer{
     border-radius: 60px;
     list-style: none
 }
-.class{
-    display: flex;
-    flex-direction: row;
-    
-
-
-    
+button{
+    position:absolute;
+    margin-right: 0;
 }
 #github{
     width: 90px;
