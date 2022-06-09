@@ -12,20 +12,24 @@ aside{
 
 }
 #selection {
-    background-color: #8d6bfb;
-    
-
+    margin: -10px;
+    background-image: linear-gradient(to bottom, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
 }
 #tabs{
     border: black;
     font-size: large;
     margin: 0 10px 0 30px;
-    padding: 20px;
+    padding: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     
+    
+}
+nav{
+    background-color: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: white;
 }
 #info{
     border-color: #fbfbfb;
@@ -34,7 +38,9 @@ aside{
     flex-direction: column;
     text-align: center;
 }
-
+#info, #skill, #project, #contact{
+    padding: 20px;
+}
 
 p{
     
@@ -48,7 +54,6 @@ p{
     margin: 2px 0;
     
 }
-
 #html{
     width: 55px;
     padding: 10px;
@@ -60,6 +65,7 @@ p{
     width: 50px;
     border-radius: 60px;
     padding: 10px;
+    
     background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 #resume:hover{
@@ -81,18 +87,23 @@ p{
 }
 footer{
     margin-bottom: 0;
-    background-color: #8d6bfb;
+    background-image: linear-gradient(to top, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin: -15px;
 }
 #id{
     position:relative
 }
 button{
-    position:absolute;
-    left: 920px;
+    background-image: radial-gradient(circle, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
+    position: inherit;
+    color:white;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 20px;
     margin: 20px 0;
 }
 #resume{
