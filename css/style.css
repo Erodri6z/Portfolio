@@ -1,7 +1,16 @@
 body{
+    --body-bg: #5FFBF1;
+    --footer-bg:linear-gradient(to top, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
+    --nav-bg:linear-gradient(to bottom, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
+    background-color: var(--body-bg);
     font-family: 'Roboto Slab', serif;
-    background-color: #5FFBF1;
     
+}
+body.dark{
+    --body-bg:#430026;
+    color:#00dff3;
+    --nav-bg:linear-gradient(to top, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
+    --footer-bg:linear-gradient(to bottom, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
 }
 
 aside{
@@ -13,9 +22,9 @@ aside{
 }
 #selection {
     margin: -10px;
-    background-image: linear-gradient(to bottom, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
-    
+    background-image:var(--nav-bg) ;    
 }
+
 #tabs{
     border: black;
     font-size: large;
@@ -30,7 +39,6 @@ aside{
     
 }
 nav{
-    background-color: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     color: white;
     position: fixed;
     width: 100%;
@@ -52,13 +60,18 @@ p{
     max-width: 30%;
 }
 #skill-list{
+    margin: 30px;
     text-align: center;
-    border-bottom:solid #41b3ff;
+    justify-content: space-evenly;
+    border-bottom:solid #356ec6;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .icons{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 
 }
 
@@ -89,13 +102,16 @@ p{
     background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
 }
 .projects{
+    border-bottom: solid #356ec6;
     text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
     position: relative;
     
 }
 footer{
     margin-bottom: 0;
-    background-image: linear-gradient(to top, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
+    background-image: var(--footer-bg);
     display:flex;
     flex-direction: row;
     align-items: center;

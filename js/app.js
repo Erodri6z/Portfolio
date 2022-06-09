@@ -3,22 +3,39 @@ const info = document.getElementById('info')
 const skill = document.getElementById('skill')
 const project = document.getElementById('project')
 const contact = document.getElementById('contact')
-const modeBtn = document.getElementById('light-dark')
+const modeBtn = document.querySelector('#light-dark')
 const about = document.getElementById('name')
 const title = document.getElementById('title')
 const resume = document.getElementById('id')
 const contactLink = document.getElementById('contacts')
 const list = document.getElementById('skill-list')
+const body = document.querySelector('body')
 
 
-// info.addEventListener('click',function(){
-//     modeBtn.scrollIntoView(true)
-//  })
-//  skill.addEventListener('click',function(){
-//      list.scrollIntoView(true)
-// })
-//info.addEventListener('click',function(){
-//     resume.scrollIntoView(true)
-// })info.addEventListener('click',function(){
-//     resume.scrollIntoView(true)
-// })
+
+info.addEventListener('click',function(){
+     modeBtn.scrollIntoView({behavior:"smooth"})
+})
+skill.addEventListener('click',function(){
+      about.scrollIntoView({behavior:"smooth"})
+ })
+project.addEventListener('click',function(){
+     resume.scrollIntoView({behavior:"smooth"})
+ })
+contact.addEventListener('click',function(){
+     contactLink.scrollIntoView({behavior:"smooth"})
+})
+modeBtn.addEventListener('click',toggleLightDark)
+
+
+function checkDarkPref(){
+    if(window.matchMedia("(prefers-color-scheme:dark)").matches &&
+    body.className !== 'dark'
+    ){
+        toggleLightDark()
+    }
+}
+function toggleLightDark(){
+    body.className = body.className === "dark" ? "" : "dark"
+}
+
