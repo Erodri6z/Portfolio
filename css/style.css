@@ -9,16 +9,18 @@ aside{
     margin-left: 90%;
     position: absolute;
     bottom:290px
-
+    
 }
 #selection {
     margin: -10px;
     background-image: linear-gradient(to bottom, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
+    
 }
 #tabs{
     border: black;
     font-size: large;
     margin: 0 10px 0 30px;
+    
     padding: 0px;
     display: flex;
     flex-direction: row;
@@ -30,6 +32,7 @@ aside{
 nav{
     background-color: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     color: white;
+    
 }
 #info{
     border-color: #fbfbfb;
@@ -43,7 +46,6 @@ nav{
 }
 
 p{
-    
     margin: auto;
     max-width: 30%;
 }
@@ -83,7 +85,7 @@ p{
 .projects{
     text-align: center;
     position: relative;
-
+    
 }
 footer{
     margin-bottom: 0;
