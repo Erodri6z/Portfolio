@@ -6,9 +6,9 @@ body{
 
 aside{
     flex-direction: column;
-    margin-left: 90%;
-    position: absolute;
-    bottom:290px
+    position: static;
+    margin-left: 88%;
+    
     
 }
 #selection {
@@ -51,13 +51,12 @@ p{
     margin: auto;
     max-width: 30%;
 }
+.icons{
+    display: flex;
+    flex-direction: row;
 
-#icons{
-    max-width: 55px;
-    border: 0px;
-    margin: 2px 0;
-    
 }
+
 #html{
     width: 55px;
     padding: 10px;
@@ -99,7 +98,7 @@ footer{
     margin: -15px;
 }
 #id{
-    position:relative
+    position:inherit
 }
 button{
     background-image: radial-gradient(circle, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
@@ -110,6 +109,7 @@ button{
     padding: 20px;
     margin: 60px 0;
 }
+
 #resume{
     max-width: 55px;
     border-radius: 60px;
