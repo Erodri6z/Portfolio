@@ -9,8 +9,8 @@ body{
 body.dark{
     --body-bg:#430026;
     color:#00dff3;
-    --nav-bg:linear-gradient(to top, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
-    --footer-bg:linear-gradient(to bottom, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
+    --nav-bg: linear-gradient(to top, #430026, #4c123c, #512454, #51356b, #4d4781, #455c99, #3771ad, #1e86bf, #00a4d4, #00c1e3, #26deec, #5ffbf1);
+    --footer-bg:linear-gradient(to botto, #430026, #4c123c, #512454, #51356b, #4d4781, #455c99, #3771ad, #1e86bf, #00a4d4, #00c1e3, #26deec, #5ffbf1);
 }
 
 aside{
@@ -116,7 +116,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: -15px;
+    margin: -50px;
 }
 #id{
     position:inherit
@@ -132,11 +132,11 @@ button{
 }
 
 #resume{
-    max-width: 55px;
+    max-width: 50px;
     border-radius: 60px;
     padding: 10px;
     background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-    border-radius: 80px;
+
 }
 #github{
     width: 90px;
