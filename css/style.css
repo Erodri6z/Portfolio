@@ -103,12 +103,12 @@ footer{
 }
 button{
     background-image: radial-gradient(circle, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
-    position: inherit;
+    position:static;
     color:white;
     font-weight: 600;
     border-radius: 20px;
     padding: 20px;
-    margin: 20px 0;
+    margin: 60px 0;
 }
 #resume{
     max-width: 55px;
@@ -130,4 +130,15 @@ button{
 #email{
     width:90px;
     padding: 30px;
+}
+#ttt{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 60px ;
+    border: solid white
+}
+#my-stuff{
+    margin-bottom: 60px;
 }
