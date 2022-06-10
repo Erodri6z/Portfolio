@@ -153,13 +153,15 @@ button{
     padding: 30px;
 }
 #ttt{
-    display:block;
+   display:block;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     border-radius: 60px ;
     border: solid white
 }
-#my-stuff{
+#my-stuff{ 
     margin-bottom: 60px;
+    
+    
 }
