@@ -16,10 +16,10 @@ info.addEventListener('click',function(){
     modeBtn.scrollIntoView({behavior:"smooth"})
 })
 skill.addEventListener('click',function(){
-      about.scrollIntoView({behavior:"smooth"})
+      resume.scrollIntoView({behavior:"smooth"})
     })
     project.addEventListener('click',function(){
-        resume.scrollIntoView({behavior:"smooth"})
+        list.scrollIntoView({behavior:"smooth"})
     })
     contact.addEventListener('click',function(){
         contactLink.scrollIntoView({behavior:"smooth"})
