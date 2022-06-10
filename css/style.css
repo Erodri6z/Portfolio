@@ -10,7 +10,7 @@ body.dark{
     --body-bg:#430026;
     color:#00dff3;
     --nav-bg: linear-gradient(to top, #430026, #4c123c, #512454, #51356b, #4d4781, #455c99, #3771ad, #1e86bf, #00a4d4, #00c1e3, #26deec, #5ffbf1);
-    --footer-bg:linear-gradient(to botto, #430026, #4c123c, #512454, #51356b, #4d4781, #455c99, #3771ad, #1e86bf, #00a4d4, #00c1e3, #26deec, #5ffbf1);
+    --footer-bg: linear-gradient(to bottom, #430026, #4c123c, #512454, #51356b, #4d4781, #455c99, #3771ad, #1e86bf, #00a4d4, #00c1e3, #26deec, #5ffbf1);
 }
 
 aside{
@@ -162,6 +162,4 @@ button{
 }
 #my-stuff{ 
     margin-bottom: 60px;
-    
-    
 }
