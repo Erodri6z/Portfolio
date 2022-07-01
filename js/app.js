@@ -50,6 +50,9 @@ let projectMarkup = projectData.map(projectData =>
             </a>
             <div>
                 <p>${projectData.description}</p>
+                <a href='${projectData.github}'>
+                <p>Github</p>
+                </a>
             </div>
         </div>
 `
