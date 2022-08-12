@@ -11,6 +11,12 @@ let projectData = [{
     image: '/assets/SkillTree.png',
     github: 'https://github.com/Erodri6z/Skill-Tree',
     description: 'An Application to collect your skills and comment on others.'
+}, {
+    title: "Campfire",
+    deployment: 'https://campfire-erodri6z.herokuapp.com/',
+    image: '/assets/homepage.png',
+    github: 'https://github.com/Erodri6z/CampFire',
+    description: 'An Application to be able to share and get ideas for creative writting.'
 }
 ]
 
