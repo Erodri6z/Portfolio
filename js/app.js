@@ -16,7 +16,7 @@ info.addEventListener('click',function(){
     modeBtn.scrollIntoView({behavior:"smooth"})
 })
 skill.addEventListener('click',function(){
-      resume.scrollIntoView({behavior:"smooth"})
+    resume.scrollIntoView({behavior:"smooth"})
     })
     project.addEventListener('click',function(){
         list.scrollIntoView({behavior:"smooth"})
@@ -25,8 +25,7 @@ skill.addEventListener('click',function(){
         contactLink.scrollIntoView({behavior:"smooth"})
     })
     modeBtn.addEventListener('click',toggleLightDark)
-    
-    
+
 function checkDarkPref(){
     if(window.matchMedia("(prefers-color-scheme:dark)").matches &&
     body.className !== 'dark'
