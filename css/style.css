@@ -42,8 +42,7 @@ aside{
 nav{
     color: white;
     position: fixed;
-    width: 100%;
-    margin:-8px
+    width: 102%;
 }
 #info{
     border-color: #fbfbfb;
@@ -170,4 +169,13 @@ button{
     margin-left: 39%;
     margin-right: 38%;
     overflow:hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #d16ba5;
+}
+::-webkit-scrollbar-thumb {
+    background: #41dfff;
 }
