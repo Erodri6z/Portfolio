@@ -4,7 +4,8 @@ body{
     --nav-bg:linear-gradient(to bottom, #780044, #79135a, #752470, #6b3486, #59439b, #4b59b2, #356ec6, #0083d6, #00a3e9, #00c2f1, #00dff3, #5ffbf1);
     background-color: var(--body-bg);
     font-family: 'Roboto Slab', serif;
-    
+    display: flex;
+    flex-direction: column;
 }
 body.dark{
     --body-bg:#430026;
@@ -17,10 +18,9 @@ aside{
     flex-direction: column;
     position: static;
     margin-left: 80%;
+
     min-width: 20px;
     max-width: 50px;
-    
-    
 }
 #selection {
     margin: -10px;
@@ -31,7 +31,6 @@ aside{
     border: black;
     font-size: large;
     margin: 0 10px 0 30px;
-    
     padding: 0px;
     display: flex;
     flex-direction: row;
@@ -71,38 +70,32 @@ p{
 }
 .icons{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    
-
+    display: grid;
+    grid-template-rows: repeat(4,10vmin);
+    grid-template-columns: repeat(4,10vmin);
+    grid-gap: 10vmin;
 }
 
-#html{
-    width: 55px;
-    padding: 10px;
-    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-    border-radius: 80px;
-}
-#css, #javascript{
-    padding: 12px; 
+#html, #css, #javascript, #express, #mongodb, #github-badge, #nodejs, #postgresSQL, #react, #python, #django, #docker{
+    max-width: 100px;
+    min-width: 70px;
+    min-height: 20px;
+    max-width: 20px;
+    padding: 13px; 
     width: 50px;
     border-radius: 60px;
-    padding: 10px;
-    
     background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+#html:hover, #css:hover, #javascript:hover, #express:hover, #mongodb:hover, #github-badge:hover, #nodejs:hover, #postgresSQL:hover, #react:hover, #python:hover, #django:hover, #docker:hover{
+    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
 }
 #resume:hover{
     background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
 }
-#html:hover{
-    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
-}
-#css:hover{
-    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
-}
-#javascript:hover{
-    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
-}
+
 .projects{
     border-bottom: solid #356ec6;
     text-align: center;
@@ -131,6 +124,7 @@ button{
     border-radius: 20px;
     padding: 20px;
     margin: 60px 0;
+    max-width: fit-content;
 }
 
 #resume{
@@ -156,7 +150,7 @@ button{
     padding: 30px;
 }
 #ttt{
-   display:block;
+    display:block;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -165,4 +159,15 @@ button{
 }
 #my-stuff{ 
     margin-bottom: 60px;
+}
+#gitdemo{
+    text-decoration: none;
+    display:inline-block;
+    margin-left: 47%;
+}
+#deployment{
+    display: inline-block;
+    margin-left: 39%;
+    margin-right: 39%;
+    overflow:hidden;
 }

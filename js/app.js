@@ -43,13 +43,13 @@ const myStuff = document.getElementById('my-stuff')
 
 let projectMarkup = projectData.map(projectData =>
     ` 
-        <div>
-            <a href="${projectData.deployment}">
+        <div class="apps">
+            <a href="${projectData.deployment}" id="deployment">
                 <img id="ttt" src="${projectData.image}" alt="${projectData.title}">
             </a>
             <div>
                 <p>${projectData.description}</p>
-                <a href='${projectData.github}'>
+                <a href='${projectData.github}' id="gitdemo">
                 <p>Github</p>
                 </a>
             </div>
