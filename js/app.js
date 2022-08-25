@@ -10,6 +10,7 @@ const resume = document.getElementById('id')
 const contactLink = document.getElementById('contacts')
 const list = document.getElementById('skill-list')
 const body = document.querySelector('body')
+const bottomOfList = document.getElementById('icon-l')
 
 
 info.addEventListener('click',function(){
@@ -19,7 +20,7 @@ skill.addEventListener('click',function(){
     resume.scrollIntoView({behavior:"smooth"})
     })
     project.addEventListener('click',function(){
-        list.scrollIntoView({behavior:"smooth"})
+        bottomOfList.scrollIntoView({behavior:"smooth"})
     })
     contact.addEventListener('click',function(){
         contactLink.scrollIntoView({behavior:"smooth"})
