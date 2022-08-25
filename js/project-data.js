@@ -17,6 +17,12 @@ let projectData = [{
     image: '/assets/homepage.png',
     github: 'https://github.com/Erodri6z/CampFire',
     description: 'An Application to be able to share and get ideas for creative writting.'
+}, {
+    title: "Stranger Drinks",
+    deployment: 'https://stranger-drinks.netlify.app/',
+    image: '/assets/strangerdrinks.png',
+    github: 'https://github.com/psison92/stranger-drinks-front-end/issues',
+    description: 'A React app where you can share drink ideas, this was a group project of whom I was a contributer to.'
 }
 ]
 
