@@ -118,7 +118,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: -50px;
+    margin: -8px;
 }
 #id{
     position:inherit
