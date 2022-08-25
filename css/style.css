@@ -43,7 +43,7 @@ nav{
     color: white;
     position: fixed;
     width: 100%;
-    
+    margin:-8px
 }
 #info{
     border-color: #fbfbfb;
@@ -133,7 +133,7 @@ button{
     border-radius: 60px;
     padding: 10px;
     background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-    margin-right:70%:
+    margin-right:70%;
 }
 #github{
     width: 90px;
@@ -168,6 +168,6 @@ button{
 #deployment{
     display: inline-block;
     margin-left: 39%;
-    margin-right: 39%;
+    margin-right: 38%;
     overflow:hidden;
 }
