@@ -88,7 +88,7 @@ p{
 }
 
 
-#html:hover, #css:hover, #javascript:hover, #express:hover, #mongodb:hover, #github-badge:hover, #nodejs:hover, #postgresSQL:hover, #react:hover, #python:hover, #django:hover, #docker:hover  #netlify:hover, #heroku:hover, #bootstrap:hover, #git:hover{
+#html:hover, #css:hover, #javascript:hover, #express:hover, #mongodb:hover, #github-badge:hover, #nodejs:hover, #postgresSQL:hover, #react:hover, #python:hover, #django:hover, #docker:hover,  #netlify:hover, #heroku:hover, #bootstrap:hover, #git:hover{
     background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff, #fbf9ff, #f7f7ff, #fcfdff, #fbfbfb, #aaddff, #72d8fc, #28d7fa, #46eefa, #5ffbf1);
 }
 #resume:hover{
